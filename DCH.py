@@ -15,11 +15,6 @@ torch.multiprocessing.set_sharing_strategy('file_system')
 # official code [DCH-tensorflow](https://github.com/thulab/DeepHash)
 # code [DCH--pytorch](https://github.com/3140102441/DCH--pytorch)
 
-# [DCH] epoch:150, bit:48, dataset:cifar10-1, MAP:0.768, Best MAP: 0.810
-# [DCH] epoch:150, bit:48, dataset:coco, MAP:0.665, Best MAP: 0.670
-# [DCH] epoch:150, bit:48, dataset:imagenet, MAP:0.586, Best MAP: 0.586
-# [DCH] epoch:150, bit:48, dataset:nuswide_21, MAP:0.778, Best MAP: 0.794
-
 def get_config():
     config = {
         "gamma": 20.0,
